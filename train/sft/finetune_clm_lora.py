@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # coding=utf-8
 # Copyright 2020 The HuggingFace Inc. team. All rights reserved.
 #
@@ -27,7 +26,6 @@ import sys
 import random
 from dataclasses import dataclass, field
 from itertools import chain
-import deepspeed
 from typing import Optional,List,Union
 
 import datasets
